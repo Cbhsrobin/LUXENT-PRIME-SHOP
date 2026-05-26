@@ -1,0 +1,35 @@
+# 🛍️ LUXENT PRIME — Telegram Shop Bot
+
+## ফাইলগুলো:
+- `bot.py` — মূল বট কোড
+- `requirements.txt` — প্যাকেজ লিস্ট
+- `Procfile` — Railway-র জন্য
+
+## ধাপ ১ — BotFather থেকে Token নিন
+1. Telegram-এ @BotFather খুলুন
+2. /newbot লিখুন
+3. নাম দিন: LUXENT PRIME
+4. Username দিন: luxentprime_bot
+5. Token কপি করুন
+
+## ধাপ ২ — Railway-তে হোস্ট করুন (ফ্রি)
+1. railway.app এ যান
+2. GitHub দিয়ে Sign Up করুন
+3. "New Project" → "Deploy from GitHub"
+4. এই ফোল্ডারটা GitHub-এ upload করুন
+5. Variables সেট করুন:
+   - BOT_TOKEN = আপনার token
+   - BKASH_NUMBER = আপনার bKash নম্বর
+   - CRYPTO_ADDRESS = আপনার USDT address
+
+## Admin Commands:
+- /admin — অ্যাডমিন প্যানেল খুলুন
+- /addbalance @username 10.00 — ব্যালেন্স যোগ করুন
+
+## Features:
+✅ Shop — প্রোডাক্ট লিস্ট ও কেনাকাটা
+✅ Deposit — bKash ও Crypto
+✅ Profile — ব্যালেন্স ও অর্ডার হিস্টোরি
+✅ Admin Panel — প্রোডাক্ট এড/ডিলিট
+✅ Referral System
+✅ Support
